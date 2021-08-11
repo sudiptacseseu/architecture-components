@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Room Database</string>
+    <string name="click_here">Click here to get data and show it on logcat!</string>
+</resources>
