@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Object data binding with views-->
+    <data>
+        <variable
+            name="post"
+            type="com.sudipseucse.binding_adapter.model.Post" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.MainActivity">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/textViewImageDescription"
+            android:scaleType="centerCrop"
+            app:imageFromUrl="@{post.url}"
+            app:whileError="@{@drawable/error}"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textViewImageDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{post.imageDescription}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{post.author}"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewImageDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

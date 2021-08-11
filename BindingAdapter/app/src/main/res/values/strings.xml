@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Data Binding Adapter</string>
+    <string name="image_description">Image will be loaded by using custom Binding Adapter</string>
+    <string name="author">- By Sudipta Karmakar</string>
+</resources>
