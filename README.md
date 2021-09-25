@@ -9,4 +9,5 @@ IV. LiveData,
 V. DataBinding, 
 VI. LiveData with DataBinding, 
 VII. BindingAdapter, 
-VIII. Room Database with Type Converter and Migration.
+VIII. Room Database with Type Converter and Migration,
+IX. Paging Library with Recyclerview.

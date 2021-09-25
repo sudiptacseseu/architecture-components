@@ -3,8 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Sudipta_CST/Android Projects/architecture-components/LiveData/app/src/main/res/layout/activity_main.xml" value="0.24479166666666666" />
-        <entry key="..\:/Users/Sudipta_CST/Android Projects/live_data/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Users/Sudipta_CST/Android Projects/architecture-components/PagingWithRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.240625" />
+        <entry key="..\:/Users/Sudipta_CST/Android Projects/architecture-components/PagingWithRecyclerView/app/src/main/res/layout/recyclerview_item.xml" value="0.25" />
       </map>
     </option>
   </component>
